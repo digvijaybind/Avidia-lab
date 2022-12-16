@@ -1,24 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Image } from "./component/left";
+import { Aboutme } from "./component/left";
+import { Contactus } from "./component/left";
+import { Skill } from "./component/left";
+import { Education } from "./component/right";
+import { Experience } from "./component/right";
+import { Language } from "./component/right";
+import { Col, Row } from "antd";
+import Profiledata from "./profile.json";
 
 function App() {
+  console.log("data", Profiledata);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Row gutter={24} className="Container">
+      <Col xs={24} lg={12} className="Leftside">
+        <Image />
+        <Aboutme />
+        {Profiledata.map((data, index) => {
+          console.log("skilldata", data.skillSet);
+          return data.skillSet.map((dataskill, index) => {
+            console.log(" dataskill.skillName=", dataskill.skillName);
+            console.log(" dataskill.percentage=", dataskill.percentage);
+
+            return (
+              <Skill
+                key={index}
+                title={dataskill.skillName}
+                percentage={dataskill.percentage}
+              />
+            );
+          });
+        })}
+
+        <Contactus
+          email={Profiledata[0].contacts.email}
+          mobile={Profiledata[0].contacts.mobile}
+        />
+      </Col>
+      <Col xs={24} lg={12} className="Rightside">
+        <Education />
+        <Language />
+        <Experience />
+      </Col>
+    </Row>
   );
 }
 

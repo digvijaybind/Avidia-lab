@@ -1,0 +1,17 @@
+.conatinerLangugage {
+  padding-bottom: 75px;
+}
+.languagedescibe {
+  padding-bottom: 30px;
+}
+.chartdonut {
+  display: flex;
+  justify-content: space-around;
+}
+.title {
+}
+.languagetitle {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}

@@ -1,0 +1,31 @@
+.Experiencetitle {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.Containerexperience {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.experiencetitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+.titleanddescripation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.experiencedescripation {
+}
+.experienceyear {
+  font-size: 15px;
+  font-weight: bold;
+}
+.mainexperience {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}

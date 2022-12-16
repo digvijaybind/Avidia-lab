@@ -1,0 +1,84 @@
+ [
+  {
+    "fullName": "David Tokan",
+    "profilePic":
+      "../../../asset/image/Profile.jpg",
+    "role": "MID Architect",
+    "aboutMe":
+      "As for the memo's look make sure the text is clear and easy-to-read.However, you can include your logo,company name,and a few relevant photos .Another idea is to use your brand colors to create a memo that aligns with your overall mission .As for the memo's look make sure the text is clear and easy-to-read.However, you can include your logo,company name,and a few relevant photos .Another idea is to use your brand colors to create a memo that aligns with your overall mission  ",
+    "skillSet": [
+      {
+        "skillName": "INTERIOR DESIGN",
+        "percentage": "80"
+      },
+      {
+        "skillName": "3D MODELLING",
+        "percentage": "70"
+      },
+      {
+        "skillName": "PHOTOGRAPHY",
+        "percentage": "60"
+      }
+    ],
+    "contacts": {
+      "email": "hello@reallygreatsite.com",
+      "mobile": "123-567-8901"
+    },
+    "education": [
+      {
+        "degree": "BACHELOR OF ARCHITECTURE",
+        "school": "Marcelionel Art Academy",
+       "year": "2014"
+      },
+      {
+        "degree": "MASTERS OF ARCHITECTURE",
+        "school": "Sami Institute of the Arts",
+        "year": "2018"
+      }
+    ],
+    "languages": {
+      "title":
+        "lorem ipsum  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+      "langArray": [
+        {
+          "name": "English",
+          "fluecny": "80"
+        },
+        {
+          "name": "German",
+          "fluecny": "60"
+        },
+        {
+          "name": "Italian",
+          "fluecny": "30"
+        }
+      ]
+    },
+    "experiences": [
+      {
+        "title": "JUNIOR ASSISTANT ",
+        "year": "2018",
+        "description":
+          "Worked on marketing camapaigns. handled multiple digital accounts . Created digital marketing campaigns Assisted the head designer. "
+      },
+      {
+        "title": "JUNIOR ARCHITECT ",
+        "year": "2019",
+        "description":
+          "Worked on marketing campaigns ,handled multiple digital accounts .Created digital marketing campaigns. Assited the head designer "
+      },
+      {
+        "title": "PROJECT MANAGER ",
+        "year": "2020",
+        "description":
+          "Worked on marketing campaigns . Handled multiple digital accounts . Created digital marketing campaigns .Assited the head designer "
+      },
+      {
+        "title": "MID LEVEL ARCHITECT",
+        "year": "2026",
+        "description":
+          "Worked on marketing campaigns,Handled multiple digital accounts Created digital marketing campaigns .Assited the head designer"
+      }
+    ]
+  }
+]

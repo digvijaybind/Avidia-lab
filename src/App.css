@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-wrap: wrap;
+  /* font-size: 30px; */
   text-align: center;
 }
 
@@ -35,4 +38,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Container {
+  padding: 25px;
+}
+.Leftside {
+  background-color: lightgray;
+  height: 100%;
+  padding-left: 20px !important;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 110px;
+}
+
+.Rightside {
+  background-color: white;
+  height: 100%;
+  padding: 30px 45px 30px 30px;
 }

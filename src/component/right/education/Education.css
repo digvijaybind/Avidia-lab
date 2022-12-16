@@ -1,0 +1,26 @@
+.Educationtitle {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.Containereducation {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.educationschool {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.schoolandegree {
+  display: flex;
+  flex-direction: column;
+}
+.educationdegree {
+  width: 300px;
+}
+.educationyear {
+  font-size: 15px;
+  font-weight: bold;
+}
