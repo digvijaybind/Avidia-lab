@@ -6,7 +6,7 @@ const Image = () => {
   return (
     <div className="Containerimage">
       <div className="Nameimage">
-        <img src={Profileimage} className="Profileimage" alt="image" />
+        <img src={Profileimage} className="Profileimage" alt="xyz" />
       </div>
       <div className="Name">
         {Profiledata.map((data, index) => {
